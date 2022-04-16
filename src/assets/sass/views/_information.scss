@@ -1,0 +1,28 @@
+.information{
+    padding-top: 278px;
+    &__wrap{
+        max-width: 1232px;
+        margin: auto;
+    }
+}
+.informationBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 207px;
+    h2{
+        padding-right: 76px;
+    }
+    &__content{
+        border-left: 5px solid $primary-color;
+        padding-left: 45px;
+        p{
+            &:not(:last-of-type){
+                margin-bottom: 35px;
+            }
+        }
+    }
+    &__title{
+        min-width: 500px;
+        text-align: right;
+    }
+}

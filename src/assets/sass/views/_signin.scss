@@ -1,0 +1,49 @@
+.signin__Banner {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__logo {
+        margin-bottom: 160px;
+    }
+}
+
+.about__content {
+    max-width: 480px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        margin-bottom: 62px;
+    }
+}
+
+.aboutBox {
+    padding: 0 87px;
+    min-height: 100vh;
+
+    &__content {
+        max-width: 430px;
+        text-align: right;
+        margin-left: auto;
+    }
+
+    &__image {
+        text-align: center;
+    }
+}
+.signBG{
+    background: url(../../img/bg5.png) no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-position: center;
+
+}

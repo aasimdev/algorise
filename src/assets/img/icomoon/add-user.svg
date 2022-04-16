@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2348" data-name="Path 2348" d="M22.5,0A22.5,22.5,0,1,1,0,22.5,22.5,22.5,0,0,1,22.5,0Z" fill="none" stroke="#fcb415" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_7" data-name="Mask Group 7" clip-path="url(#clip-path)">
+    <g id="person_add_black_24dp">
+      <path id="Path_2346" data-name="Path 2346" d="M0,0H45V45H0Z" fill="none"/>
+      <path id="Path_2347" data-name="Path 2347" d="M21.022,18.441a5.471,5.471,0,1,0-5.471-5.471A5.469,5.469,0,0,0,21.022,18.441Zm0-8.206a2.735,2.735,0,1,1-2.735,2.735A2.743,2.743,0,0,1,21.022,10.235Zm0,10.941c-3.652,0-10.941,1.833-10.941,5.471v2.735H31.963V26.647C31.963,23.009,24.674,21.176,21.022,21.176Zm-8.206,5.471c.3-.985,4.527-2.735,8.206-2.735s7.932,1.764,8.206,2.735Zm-4.1-4.1v-4.1h4.1V15.706h-4.1V11.6H5.978v4.1h-4.1v2.735h4.1v4.1Z" transform="translate(5.581 4.059)" fill="#51e8ef"/>
+    </g>
+  </g>
+</svg>

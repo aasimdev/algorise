@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="22.5" cy="22.5" r="22.5" fill="#51e8ef"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" clip-path="url(#clip-path)">
+    <g id="account_balance_wallet_black_24dp_1_" data-name="account_balance_wallet_black_24dp (1)">
+      <path id="Path_2351" data-name="Path 2351" d="M0,0H45V45H0Z" fill="none"/>
+      <path id="Path_2352" data-name="Path 2352" d="M29.355,11.267V8.262a2.644,2.644,0,0,0-2.637-2.637H8.262A2.636,2.636,0,0,0,5.625,8.262V26.718a2.636,2.636,0,0,0,2.637,2.637H26.718a2.644,2.644,0,0,0,2.637-2.637V23.712a2.638,2.638,0,0,0,1.318-2.268v-7.91a2.638,2.638,0,0,0-1.318-2.268Zm-1.318,2.268v7.91H18.808v-7.91ZM8.262,26.718V8.262H26.718V10.9h-7.91a2.644,2.644,0,0,0-2.637,2.637v7.91a2.644,2.644,0,0,0,2.637,2.637h7.91v2.637Z" transform="translate(4.351 5.01)" fill="#51e8ef"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.977" cy="1.977" r="1.977" transform="translate(25.137 20.523)" fill="#51e8ef"/>
+    </g>
+  </g>
+</svg>

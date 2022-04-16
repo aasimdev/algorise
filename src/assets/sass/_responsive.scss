@@ -1,0 +1,161 @@
+@media (max-width: 1600px) {
+    .signin__Banner__logo {
+        margin-bottom: 85px;
+
+        img {
+            max-width: 240px;
+        }
+    }
+
+    .aboutBox__head {
+        max-width: 80%;
+    }
+
+    .aboutBox__content {
+        max-width: 330px;
+    }
+
+    .sidebarMain {
+        padding: 50px 50px 50px 31px;
+    }
+
+    .sidebarAction {
+        margin-top: 60px;
+        height: calc(100% - 175px);
+    }
+
+    .rightSidebar {
+        position: fixed;
+        right: 44px;
+    }
+    .rightSidebar .primaryAction li a .notificationsBell, .rightSidebar .primaryAction li a .searchIcon {
+        width: 52px;
+        height: 52px;
+        border-radius: 11px;
+    }
+    .rightSidebar .primaryAction li a.connectwallBtn {
+        width: 52px;
+        height: 52px;
+        line-height: 14px;
+        border-radius: 11px;
+        
+    font-size: 10px;
+
+    }
+    .searchall .form-control {
+        height: 52px;}
+        .profile {
+            width: 52px;
+            height: 52px;
+            border-radius: 11px;
+        }
+        .coins__list ul li a span {
+            font-size: 10px;
+            line-height: 1.3;
+            margin-top: 0px;
+        }
+        .coins__list ul li a {
+            border-radius: 11px;
+            padding: 7px;
+            width: 52px;
+        }
+        .rightSidebar .primaryAction li a .notificationsBell i {
+            font-size: 24px;}
+            .rightSidebar .primaryAction li a .notificationsBell .newNotification {
+                width: 9px;
+                height: 9px;
+                right: 15px;
+                top: 12px;
+            }
+            .coins__list__up {
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+            }
+}
+
+    @media (max-width: 1536px) {
+        .aboutBox__content {
+            max-width: 310px;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        .about__content {
+            max-width: 390px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 30px;
+            line-height: 1.3;
+        }
+
+        .aboutBox__content {
+            max-width: 250px;
+
+            p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .about__content h1 {
+            margin-bottom: 35px;
+        }
+
+        .about__content {
+            max-width: 330px;
+
+            p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+
+        .aboutBox {
+            padding: 0 20px;
+        }
+
+        .aboutBox__content {
+            max-width: 233px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .signBG {
+            background: #000;
+        }
+
+        .about__content {
+            max-width: 400px;
+            min-height: auto;
+        }
+
+        .aboutBox {
+            text-align: center;
+            margin-bottom: 50px;
+            min-height: auto;
+        }
+
+        .aboutBox__head {
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .aboutBox__content {
+            max-width: 400px;
+            margin-right: auto;
+            text-align: center;
+
+        }
+
+        .aboutMain {
+            margin: 50px 0;
+        }
+    }
