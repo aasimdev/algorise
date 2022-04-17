@@ -1,0 +1,135 @@
+.navbar {
+    background-color: #000;
+    .navbar-brand {
+        max-width: 60px;
+        display: inline-block;
+    }
+}
+
+.headerDropdown {
+    display: flex;
+    align-items: center;
+
+    .primaryAction {
+        display: flex;
+
+        li {
+            margin: 0 8px;
+            position: relative;
+
+            a {
+                i {
+
+                    font-size: 18px;
+                }
+
+                .notificationsBell,
+                .searchIcon {
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        .profileImageh {
+            max-width: 42px;
+            display: block;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: #1b2b2b;
+        border-radius: 18px;
+        border: 0;
+    }
+
+    .notificationBox {
+        left: -172px;
+        top: 50px;
+    }
+
+    .notificationBox ul li .notificationIcon {
+        width: 44px;
+        height: 44px;
+
+        i {
+            font-size: 31px;
+        }
+    }
+
+    .notificationBox ul li {
+        margin: 0;
+
+        &:not(:last-of-type) {
+            margin-bottom: 16px;
+        }
+    }
+
+    .activeSearch .searchall {
+        left: -234px;
+    }
+
+    .searchall {
+        top: 50px;
+        left: 42px;
+    }
+
+    .searchall .form-control {
+        border-radius: 10px;
+    }
+
+    .activeSearch .searchIcon {
+        border-radius: 8px !important;
+    }
+}
+
+.logonToggle {
+    display: flex;
+    align-items: center;
+}
+
+.headerDropdown {
+    .dropdown-toggle {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+
+        &:focus {
+            box-shadow: none !important;
+            background-color: transparent;
+            outline: 0;
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+
+    .dropdown-menu-end[data-bs-popper] {
+        right: -110px;
+    }
+}
+
+.mobileDropdown {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        margin-right: 10px;
+        width: 41px;
+        height: 41px;
+    }
+
+    span {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .theme-btn {
+        line-height: 40px;
+        border-radius: 10px;
+        padding: 0px 17px;
+        min-height: 40px;
+    }
+}

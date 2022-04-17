@@ -31,6 +31,7 @@
     border-radius: 12px;
     border: 1px solid $primary-color;
     margin-bottom: 26px;
+    overflow: hidden;
     &:last-of-type{
         margin-bottom: 0;
     }

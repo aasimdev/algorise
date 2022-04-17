@@ -17,7 +17,7 @@ const RecentPlatform = () => {
                             <Circle calTitle="Commission" calValue="0 $USDC" />
                         </div>
                         <div className='recentplatform__table'>
-                            <Table bordered variant="dark">
+                            <Table bordered variant="dark" responsive>
                                 <tbody>
                                     <tr>
                                         <td>
@@ -31,7 +31,7 @@ const RecentPlatform = () => {
                                                 <span>ID 2398476</span>
                                             </div>
                                         </td>
-                                        <td> 1 minute ago </td>
+                                        <td> <div className='time'> 1 minute ago </div></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -45,7 +45,7 @@ const RecentPlatform = () => {
                                                 <span>ID 2398476</span>
                                             </div>
                                         </td>
-                                        <td> 2 minute ago </td>
+                                        <td> <div className='time'> 2 minute ago </div></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -59,7 +59,7 @@ const RecentPlatform = () => {
                                                 <span>ID 2398476</span>
                                             </div>
                                         </td>
-                                        <td> 4 minute ago </td>
+                                        <td> <div className='time'> 4 minute ago </div></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -73,7 +73,7 @@ const RecentPlatform = () => {
                                                 <span>ID 2398476</span>
                                             </div>
                                         </td>
-                                        <td> 6 minute ago </td>
+                                        <td> <div className='time'> 6 minute ago </div></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -87,7 +87,7 @@ const RecentPlatform = () => {
                                                 <span>ID 2398476</span>
                                             </div>
                                         </td>
-                                        <td> 7 minute ago </td>
+                                        <td> <div className='time'> 7 minute ago </div></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -101,7 +101,7 @@ const RecentPlatform = () => {
                                                 <span>ID 2398476</span>
                                             </div>
                                         </td>
-                                        <td> 8 minute ago </td>
+                                        <td> <div className='time'> 8 minute ago </div></td>
                                     </tr>
                                 </tbody>
                             </Table>

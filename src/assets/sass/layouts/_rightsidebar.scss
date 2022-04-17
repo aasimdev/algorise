@@ -6,72 +6,72 @@
     padding: 23px 7px 18px;
     border-radius: 20px;
     z-index: 9;
-    .primaryAction {
-        li {
-            &:not(:last-of-type) {
-                margin-bottom: 16px;
+   
+}
+.primaryAction {
+    li {
+        &:not(:last-of-type) {
+            margin-bottom: 16px;
+        }
+
+        a {
+
+
+            &.connectwallBtn {
+                width: 72px;
+                height: 72px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: transparent linear-gradient(136deg, #51E8EF 0%, #09666A 100%);
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 12px;
+                color: #fff;
+                text-align: center;
+                border-radius: 15px;
             }
 
-            a {
+            .notificationsBell,
+            .searchIcon {
+                width: 72px;
+                height: 72px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                background: #1B2B2B;
+                transition: 0.5s ease;
+            }
 
+            .notificationsBell {
+                position: relative;
 
-                &.connectwallBtn {
-                    width: 72px;
-                    height: 72px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    background: transparent linear-gradient(136deg, #51E8EF 0%, #09666A 100%);
-                    font-size: 14px;
-                    font-weight: 700;
-                    line-height: 12px;
-                    color: #fff;
-                    text-align: center;
-                    border-radius: 15px;
+                i {
+                    font-size: 28px;
+                    color: #C1C1C1;
                 }
 
-                .notificationsBell,
-                .searchIcon {
-                    width: 72px;
-                    height: 72px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 15px;
-                    background: #1B2B2B;
-                    transition: 0.5s ease;
+                .newNotification {
+                    background: #51E8EF;
+                    border: 2px solid #0F0F0F;
+                    border-radius: 50%;
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    right: 22px;
+                    top: 16px;
                 }
+            }
 
-                .notificationsBell {
-                    position: relative;
+            .searchIcon {
+                font-size: 24px;
+                color: $primary-color;
 
-                    i {
-                        font-size: 28px;
-                        color: #C1C1C1;
-                    }
-
-                    .newNotification {
-                        background: #51E8EF;
-                        border: 2px solid #0F0F0F;
-                        border-radius: 50%;
-                        position: absolute;
-                        width: 12px;
-                        height: 12px;
-                        right: 22px;
-                        top: 16px;
-                    }
-                }
-
-                .searchIcon {
-                    font-size: 24px;
-                    color: $primary-color;
-
-                }
             }
         }
     }
 }
-
 .activeState {
     .notificationsBell {
         background: transparent !important;

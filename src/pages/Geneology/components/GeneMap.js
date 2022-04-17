@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Image } from 'react-bootstrap'
-import Map from '../../../assets/img/usermap.png'
+import desktopMap from '../../../assets/img/usermap.png'
+import mobileMap from '../../../assets/img/map.png'
 
 
 const GeneMap = () => {
@@ -9,7 +10,8 @@ const GeneMap = () => {
             <section className='mapstucture'>
                 <Container>
                     <div className='mapstucture__inner'>
-                        <Image src={Map} className='fluid' alt='map' />
+                        <Image src={desktopMap} className='fluid d-none d-xl-block' alt='map' />
+                        <Image src={mobileMap} className='fluid d-xl-none' alt='map' />
                     </div>
                 </Container>
             </section>

@@ -8,8 +8,10 @@ const TotalRanking = () => {
         <section className='totalrankingMain'>
             <Container>
                 <div className='totalrankingMain__inner'>
-                    <Circle calTitle="Ranking" calStar={fourStar} />
-                    <Circle calTitle="Total Sales" calValue="$25000" />
+                    <div className='rankingCircles'>
+                        <Circle calTitle="Ranking" calStar={fourStar} />
+                        <Circle calTitle="Total Sales" calValue="$25000" />
+                    </div>
                     <div className='rankingList'>
                         <div className='contractMain'>
                             <div className='contractMainControl'></div>

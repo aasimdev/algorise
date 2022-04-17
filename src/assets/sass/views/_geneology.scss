@@ -46,9 +46,11 @@
 }
 
 .totalrankingMain {
+    padding-bottom: 80px;
     &__inner {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .container {
@@ -57,7 +59,12 @@
         }
     }
 }
-
+.rankingCircles{
+    display: flex;
+    .calCircle{
+        margin-bottom: 0;
+    }
+}
 
 .mapstucture {
     padding: 140px 0 100px;

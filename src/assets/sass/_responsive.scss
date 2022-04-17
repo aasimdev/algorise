@@ -28,134 +28,542 @@
         position: fixed;
         right: 44px;
     }
-    .rightSidebar .primaryAction li a .notificationsBell, .rightSidebar .primaryAction li a .searchIcon {
+
+    .rightSidebar .primaryAction li a .notificationsBell,
+    .rightSidebar .primaryAction li a .searchIcon {
         width: 52px;
         height: 52px;
         border-radius: 11px;
     }
+
     .rightSidebar .primaryAction li a.connectwallBtn {
         width: 52px;
         height: 52px;
         line-height: 14px;
         border-radius: 11px;
-        
-    font-size: 10px;
+
+        font-size: 10px;
 
     }
+
     .searchall .form-control {
-        height: 52px;}
-        .profile {
-            width: 52px;
-            height: 52px;
-            border-radius: 11px;
-        }
-        .coins__list ul li a span {
-            font-size: 10px;
+        height: 52px;
+    }
+
+    .profile {
+        width: 52px;
+        height: 52px;
+        border-radius: 11px;
+    }
+
+    .coins__list ul li a span {
+        font-size: 10px;
+        line-height: 1.3;
+        margin-top: 0px;
+    }
+
+    .coins__list ul li a {
+        border-radius: 11px;
+        padding: 7px;
+        width: 52px;
+    }
+
+    .rightSidebar .primaryAction li a .notificationsBell i {
+        font-size: 24px;
+    }
+
+    .rightSidebar .primaryAction li a .notificationsBell .newNotification {
+        width: 9px;
+        height: 9px;
+        right: 15px;
+        top: 12px;
+    }
+
+    .coins__list__up {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .informationBox__title {
+        h2 {
+            font-size: 32px;
             line-height: 1.3;
-            margin-top: 0px;
+            padding-right: 50px;
         }
-        .coins__list ul li a {
-            border-radius: 11px;
-            padding: 7px;
-            width: 52px;
+    }
+
+    .informationBox__title {
+        min-width: 550px;
+    }
+
+    .informationBox__content {
+        p {
+            font-size: 17px;
+            line-height: 1.3;
         }
-        .rightSidebar .primaryAction li a .notificationsBell i {
-            font-size: 24px;}
-            .rightSidebar .primaryAction li a .notificationsBell .newNotification {
-                width: 9px;
-                height: 9px;
-                right: 15px;
-                top: 12px;
-            }
-            .coins__list__up {
-                margin-bottom: 15px;
-                padding-bottom: 15px;
-            }
+    }
+
+    .mapstucture__inner {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+
+
+    .programstack h5 {
+        font-size: 24px;
+        line-height: 1.3;
+        margin-bottom: 3px;
+    }
+
+    .programstack p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .programstack {
+        max-width: 360px;
+    }
+
+    .circleMain {
+        max-width: 1030px;
+    }
+
+    .calCircle {
+        margin-right: 30px;
+        margin-bottom: 30px;
+        width: 230px;
+        height: 230px;
+    }
+
+    .recentPlatformMain {
+        max-width: 980px;
+        margin: 123px auto 0;
+    }
+
+    .recentplatform__table {
+        margin-bottom: 115px;
+    }
+
+    .prgramWrap__inner {
+        justify-content: end;
+    }
+    input[type=range] {
+        width: 312px !important;
+        left: -147px;
+        top: 139px;
+    }
 }
 
-    @media (max-width: 1536px) {
-        .aboutBox__content {
-            max-width: 310px;
+@media (max-width: 1536px) {
+    .aboutBox__content {
+        max-width: 310px;
+    }
+
+    .information__wrap {
+        max-width: 1045px;
+    }
+
+    .prgramWrap__inner {
+        display: block;
+        text-align: center;
+    }
+
+    .pie-chart {
+        margin: auto;
+    }
+
+    .investProgramM {
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .circleMain {
+        max-width: 945px;
+    }
+
+
+    .calCircle:nth-child(4n+0) {
+        margin-right: 30px;
+    }
+
+    .recentPlatformMain {
+        max-width: 890px;
+    }
+
+    .mapstucture__inner {
+        max-width: 915px;
+    }
+
+    .totalrankingMain__inner {
+        max-width: 900px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1440px) {
+    .about__content {
+        max-width: 390px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .aboutBox__content {
+        max-width: 250px;
+
+        p {
+            font-size: 16px;
+            line-height: 1.4;
         }
     }
 
-    @media (max-width: 1440px) {
-        .about__content {
-            max-width: 390px;
-        }
+    .informationBox__title h2 {
+        font-size: 30px;
+        padding-right: 35px;
+    }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-size: 30px;
-            line-height: 1.3;
-        }
+    .informationBox__content {
+        padding-left: 35px;
+    }
 
-        .aboutBox__content {
-            max-width: 250px;
+    .information__wrap {
+        max-width: 980px;
+    }
 
-            p {
-                font-size: 16px;
-                line-height: 1.4;
-            }
+    .information {
+        padding-top: 150px;
+    }
+
+    .informationBox {
+        margin-bottom: 140px;
+    }
+
+    .promotion__wrap {
+        max-width: 705px;
+    }
+
+    .video__content__link {
+        margin-top: 5px;
+    }
+
+    .video__content {
+        padding: 16px 26px 16px;
+    }
+
+    .video__content h4 {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .deck {
+        min-width: auto;
+
+        &__action {
+            display: flex;
         }
     }
 
-    @media (max-width: 1200px) {
-        .about__content h1 {
-            margin-bottom: 35px;
-        }
+    .circleMain {
+        max-width: 710px;
+    }
 
-        .about__content {
-            max-width: 330px;
+    .recentPlatformMain {
+        max-width: 680px;
+    }
 
-            p {
-                font-size: 16px;
-                line-height: 1.4;
-            }
-        }
+    .prgramWrap {
+        padding-top: 100px;
+    }
 
-        .aboutBox {
-            padding: 0 20px;
-        }
+    .mapstucture__inner {
+        max-width: 690px;
+    }
 
-        .aboutBox__content {
-            max-width: 233px;
+    .totalrankingMain__inner {
+        display: block;
+        max-width: 695px;
+    }
+
+    .rankingCircles {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .rankingList .contractMain {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .about__content h1 {
+        margin-bottom: 35px;
+    }
+
+    .about__content {
+        max-width: 330px;
+
+        p {
+            font-size: 16px;
+            line-height: 1.4;
         }
     }
 
-    @media (max-width: 991px) {
-        .signBG {
-            background: #000;
-        }
+    .aboutBox {
+        padding: 0 20px;
+    }
 
-        .about__content {
-            max-width: 400px;
-            min-height: auto;
-        }
+    .aboutBox__content {
+        max-width: 233px;
+    }
 
-        .aboutBox {
-            text-align: center;
-            margin-bottom: 50px;
-            min-height: auto;
-        }
+    .informationBox__title h2 {
+        font-size: 24px;
+    }
 
-        .aboutBox__head {
-            max-width: 100%;
-            margin-bottom: 30px;
-        }
+    .promotion__content p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.3;
+        padding-left: 125px;
+    }
 
-        .aboutBox__content {
-            max-width: 400px;
-            margin-right: auto;
-            text-align: center;
+    .promotion {
+        margin-bottom: 130px;
+    }
 
-        }
+    .promotion__content {
+        margin-top: 45px;
+    }
 
-        .aboutMain {
-            margin: 50px 0;
+    .investProgramM {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calCircle h5 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+
+    .recentPlatformMain__inner {
+        padding: 35px;
+    }
+
+    .recentPlatformMain {
+        max-width: 475px;
+    }
+
+    .calCircle {
+        margin-right: 26px;
+        margin-bottom: 26px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .recentplatform__table {
+        padding: 0px 15px;
+    }
+
+    .userID {
+        max-width: 95px;
+        font-size: 14px;
+        padding: 7px 4px;
+        border-radius: 11px;
+    }
+
+    .programstack {
+        margin-bottom: 45px;
+    }
+
+    .mapstucture__inner {
+        max-width: 485px;
+    }
+
+    .mapstucture {
+        padding: 80px 0 65px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebarMain {
+        margin-left: -100%;
+        width: 100%;
+        top: 0;
+        z-index: 9999;
+
+        &.activeSidebar {
+            margin-left: 0;
         }
     }
+
+    .sidebarLogo {
+        text-align: center;
+
+
+    }
+
+    .sidebarAction {
+        height: calc(50% - 175px);
+    }
+
+    .sidebarAction__navs {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .rightSidebar {
+        display: none;
+    }
+
+    .sidebarAction__logout {
+        a {
+            justify-content: center;
+        }
+    }
+
+    .btn-close {
+        opacity: 1;
+        position: absolute;
+        right: 40px;
+        top: 35px;
+    }
+
+    .signBG {
+        background: #000;
+    }
+
+    .about__content {
+        max-width: 400px;
+        min-height: auto;
+    }
+
+    .aboutBox {
+        text-align: center;
+        margin-bottom: 50px;
+        min-height: auto;
+    }
+
+    .aboutBox__head {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .aboutBox__content {
+        max-width: 400px;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .aboutMain {
+        margin: 50px 0;
+    }
+
+    .information__wrap {
+        max-width: 100%;
+    }
+
+    .informationBox__title {
+        min-width: 230px;
+    }
+
+    .information {
+        padding-top: 75px;
+    }
+
+    .promotion__content p {
+        padding-left: 0;
+    }
+
+    .videopromotion {
+        padding-top: 60px;
+    }
+
+    .prgramWrap {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promotion__wrap {
+        display: block;
+    }
+
+    .promotion__videos {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .promotion__content {
+        margin-bottom: 40px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .promotion__content h2 {
+        margin-bottom: 10px;
+    }
+
+    .promotion {
+        margin-bottom: 60px;
+    }
+
+    .recentplatform__table td .recentUser {
+        width: 235px;
+    }
+
+    .userID {
+        width: 100px;
+    }
+
+    .time {
+        width: 200px;
+    }
+
+    .prgramWrap__inner {
+        margin-top: 50px;
+    }
+
+    .recentPlatformMain__inner {
+        margin-top: 50px;
+    }
+
+    .rankingCircles {
+        display: block;
+        text-align: center;
+    }
+
+    .mapstucture {
+        padding: 50px 0 50px;
+    }
+
+    .rankingCircles .calCircle {
+        margin: 0 auto 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .informationBox {
+        display: block;
+    }
+
+    .informationBox__title {
+        min-width: 100%;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    .informationBox {
+        margin-bottom: 70px;
+    }
+}

@@ -16,71 +16,73 @@ const CurrencyProgram = () => {
               <span data-title="ROI" data-percentage="70%"></span>
             </figure>
           </div>
-          <div className='investMain programstack'>
-            <ul>
-              <li>
-                <div className='investTitle'>
-                  <h5>0 $USDC</h5>
-                  <p>Invest</p>
-                </div>
-              </li>
-              <li>
-                <div className='investTitle'>
-                  <h5>0 $USDC</h5>
-                  <p>Payout</p>
-                </div>
-              </li>
-              <li>
-                <div className='investTitle'>
-                  <h5>0 $USDC</h5>
-                  <p>Yields Allocated</p>
-                </div>
-                <button className='theme-btn'>Claim</button>
-              </li>
+          <div className='investProgramM'>
+            <div className='investMain programstack'>
+              <ul>
+                <li>
+                  <div className='investTitle'>
+                    <h5>0 $USDC</h5>
+                    <p>Invest</p>
+                  </div>
+                </li>
+                <li>
+                  <div className='investTitle'>
+                    <h5>0 $USDC</h5>
+                    <p>Payout</p>
+                  </div>
+                </li>
+                <li>
+                  <div className='investTitle'>
+                    <h5>0 $USDC</h5>
+                    <p>Yields Allocated</p>
+                  </div>
+                  <button className='theme-btn'>Claim</button>
+                </li>
 
-              <li>
-                <div className='investTitle'>
-                  <h5>0 $USDC</h5>
-                  <p>Commissions Allocated</p>
+                <li>
+                  <div className='investTitle'>
+                    <h5>0 $USDC</h5>
+                    <p>Commissions Allocated</p>
+                  </div>
+                  <button className='theme-btn'>Claim</button>
+                </li>
+              </ul>
+            </div>
+            <div className='priceAmount programstack'>
+              <div className='priceAmount__inner'>
+                <div className='price__range'>
+                  <div className='priceStart sprice'>200 USDC</div>
+                  <RangeSlider
+                    value={value}
+                    onChange={changeEvent => setValue(changeEvent.target.value)}
+                    tooltip="off"
+                  />
+                  <div className='priceEnd sprice'>100 USDC</div>
                 </div>
-                <button className='theme-btn'>Claim</button>
-              </li>
-            </ul>
-          </div>
-          <div className='priceAmount programstack'>
-            <div className='priceAmount__inner'>
-              <div className='price__range'>
-                <div className='priceStart sprice'>200 USDC</div>
-                <RangeSlider
-                  value={value}
-                  onChange={changeEvent => setValue(changeEvent.target.value)}
-                  tooltip="off"
-                />
-                <div className='priceEnd sprice'>100 USDC</div>
-              </div>
-              <div className='priceContent'>
-                <ul>
-                  <li>
-                    <div className='investTitle'>
-                      <h5>0 $USDC</h5>
-                      <p>Price</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className='investTitle'>
-                      <h5>0 $USDC</h5>
-                      <p>Amount</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className='investTitle'>
-                      <h5>0</h5>
-                      <p>Units</p>
-                    </div>
-                  </li>
+                <div className='priceContent'>
+                  <ul>
+                    <li>
+                      <div className='investTitle'>
+                        <h5>0 $USDC</h5>
+                        <p>Price</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='investTitle'>
+                        <h5>0 $USDC</h5>
+                        <p>Amount</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='investTitle'>
+                        <h5>0</h5>
+                        <p>Units</p>
+                      </div>
+                    </li>
 
-                </ul>
-                <button className='theme-btn'>Buy Now</button>
+                  </ul>
+                  <button className='theme-btn'>Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
