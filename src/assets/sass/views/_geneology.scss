@@ -47,6 +47,7 @@
 
 .totalrankingMain {
     padding-bottom: 80px;
+
     &__inner {
         display: flex;
         flex-wrap: wrap;
@@ -59,21 +60,25 @@
         }
     }
 }
-.rankingCircles{
+
+.rankingCircles {
     display: flex;
-    .calCircle{
+
+    .calCircle {
         margin-bottom: 0;
     }
 }
 
 .mapstucture {
     padding: 140px 0 100px;
-    .container{
+
+    .container {
         @media (min-width: 1400px) {
             max-width: 1250px;
         }
-    }   
-    &__inner{
+    }
+
+    &__inner {
         text-align: center;
     }
 }
@@ -96,6 +101,7 @@
         font-size: 58px;
     }
 }
+
 .node {
     position: relative;
     margin: 26px;
@@ -125,7 +131,7 @@
     $border-weight: 1px;
     $margin: 17px;
 
-   
+
     padding: 0;
 
     &:not(:empty):before,
@@ -203,11 +209,12 @@
         }
     }
 
-  
+
 
     &.vertical {
         display: flex;
         justify-content: center;
+
         ul {
             display: flex;
             justify-content: center;
@@ -365,3 +372,253 @@
         }
     }
 }
+
+
+.tree {
+    $color: #222;
+    $border-color: #ddd;
+    $background-color: #eee;
+    $border-weight: 1px;
+    $margin: 16px;
+    
+
+    padding: 0;
+    
+    &:not(:empty):before, &:not(:empty):after,
+    ul:not(:empty):before, ul:not(:empty):after,
+    li:not(:empty):before, li:not(:empty):after {
+      display:block;
+      position:absolute;
+      content:"";
+    }
+    
+    ul, li {
+      position: relative;
+      margin:0;
+      padding:0;
+    }
+    
+    li {
+      list-style:none;
+    }
+    
+    li>div {
+      padding:5px;
+      display:inline-block;
+    }
+    
+ 
+    
+    &.vertical {
+      display:flex;
+    justify-content: center;
+      ul {
+        display:flex;
+        justify-content: center;
+      }
+      
+      li {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        div {
+          margin: $margin $margin/2;
+        }
+        
+        &:before {
+          border-left: $border-weight solid $border-color;
+          height: $margin;
+          width: 0;
+          top: 0;
+        }
+        
+        &:after {
+          border-top: $border-weight solid $border-color;
+          height: 0;
+          width: 100%;
+        }
+        
+        &:first-child:after {
+          border-top: $border-weight solid $border-color;
+          height: 0;
+          width: 50%;
+          left: 50%;
+        }
+        
+        &:last-child:after {
+          border-top: $border-weight solid $border-color;
+          height: 0;
+          width: 50%;
+          right: 50%;
+        }
+        
+        &:only-child:after {
+          content:none;
+        }
+        
+        ul:before {
+          border-left: $border-weight solid $border-color;
+          height: $margin;
+          width: 0;
+          top: -$margin;
+        }
+      }
+      
+      &>li {
+        &:only-child:before, &:only-child:after {
+          content:none;
+        }
+      }
+    }
+    
+    %subcascade {
+      flex-direction:column;
+      align-items:start;
+      padding: 0 $margin;
+      
+      &:before {
+        left:2*$margin;
+      }
+      
+      &:after {
+        left:0;
+      }
+      
+      &:first-child:after {
+        left:2*$margin;
+        width:100%;
+      }
+      
+      &:last-child:after {
+        left:0;
+        width:2*$margin;
+      }
+      
+      ul, li {
+        display:block;
+      }
+      
+      ul:before, ul:after,
+      li:before, li:after {
+        border:none;
+      }
+      
+      div {
+        margin:0;
+        margin-top:$margin;
+      }
+      
+      li {
+        margin-left: 2 * $margin;
+        
+        &:before {
+          border-left: $border-weight solid $border-color;
+          height:100%;
+          width:0;
+          top:0;
+          left:-$margin;
+        }
+  
+        &:after {
+          border-top: $border-weight solid $border-color;
+          width: $margin;
+          height: 0;
+          left:-$margin;
+          top: $margin * 2;
+          content: "";
+        }
+        
+        &:last-child:before {
+          height:$margin * 2;
+          top:0;
+        }
+      }
+    }
+    
+    &.vertical .cascade {
+      @extend %subcascade;
+    }
+    
+    &.vertical.cascade-1 {
+      &>li {
+        @extend %subcascade;
+      }
+    }
+    
+    &.vertical.cascade-2 {
+      &>li>ul>li {
+        @extend %subcascade;
+      }
+    }
+    
+    &.vertical.cascade-3 {
+      &>li>ul>li>ul>li {
+        @extend %subcascade;
+      }
+    }
+    
+    &.vertical.cascade-4 {
+      &>li>ul>li>ul>li>ul>li {
+        @extend %subcascade;
+      }
+    }
+  }
+
+
+
+
+.geonology__parent{
+    position: relative;
+    p{
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
+
+$boxWidth: 256px;
+
+.geneology__box{
+    width: $boxWidth;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    height: 59px;
+}
+
+.geneology__item{
+    position: relative;
+    height: 42px;
+    p{
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1;
+        line-height: 16px;
+        padding-top: 6px;
+        sup{
+            font-size: 7px;
+            top: -7px;
+        }
+        span{
+            font-size: 9px;
+            display: block;
+        }
+    }
+}
+
+
